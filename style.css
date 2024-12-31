@@ -28,9 +28,9 @@ body {
 }
 
 header, section {
-    /* width: 350px; */
-    height: 80vh;
-    aspect-ratio: 9 / 16;
+    width: 90vw;
+    min-height: 80vh;
+    /* aspect-ratio: 9 / 16; */
     background: white;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -46,11 +46,11 @@ header, section {
     color: white; /* Ensure text is readable on colorful backgrounds */
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-
+    padding: 20px;
 }
 @media (min-width: 1024px) {
     header, section {
-        aspect-ratio: 16 / 9; /* Switch to 16:9 for larger screens */
+        /* aspect-ratio: 16 / 9; Switch to 16:9 for larger screens */
         font-size: 3em;
     }
     header h1, section h2 {
